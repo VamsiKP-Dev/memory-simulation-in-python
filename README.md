@@ -5,7 +5,7 @@ This Python script presents a fun and beginner-friendly approach to understandin
 # memory-simulation-in-python
 A beginner-friendly Python script that explores core programming concepts—like data structures, memory handling, conditions, loops, and functions—through relatable, real-life examples such as movie scenes, family inheritance, and hotel experiences. A human approach to learning code!
 
-## Step 1: Store Information (Memory/Data Structure)
+## 1: Store Information (Memory/Data Structure)
 # movietrailer is a tuple representing a fixed sequence of movie elements.
 # movietrailer1 is a dictionary, representing key elements of the movie and their descriptions.
 
@@ -19,14 +19,14 @@ movietrailer1 = {
     "father": "dennis rechie"
 }
 
-## Step 2: Read or Access Data
+## 2: Read or Access Data
 # Just like recalling specific memories from your brain.
 
 print(movietrailer[0])
 print(movietrailer1["gudiovanrassum"])
 Accessing specific data from tuple or dictionary.
 
-## Step 3: Overwrite Memory (Modify Values)
+## 3: Overwrite Memory (Modify Values)
 # Updates the "category" value in the dictionary.
 # Represents how human memory can be updated or rewritten over time.
 
@@ -34,10 +34,10 @@ print(movietrailer1["category"])
 movietrailer1["category"] = "fantasy & thriller"
 print(movietrailer1["category"])
 
-## Step 4: Add New Data (Memory Expansion)
+## 4: Add New Data (Memory Expansion)
 movietrailer1.update({"radha": "mother"})
 
-## Step 5: Communication (Copy Memory to Another Person)
+## 5: Communication (Copy Memory to Another Person)
 # Copies all data from one dictionary to another.
 # Simulates transferring knowledge or sharing thoughts with a friend.
 
